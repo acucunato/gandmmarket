@@ -1,0 +1,200 @@
+html,
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #dfe4e0;
+}
+/* font-family: 'Playfair Display', serif; */
+
+.btn {
+  background-color: #c62828;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 15px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.4), 0 0 6px rgba(0, 0, 0, 0.05);
+}
+
+.btn:hover {
+  transform: scale(0.95, 0.95);
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.25),
+    -5px -5px 15px 10px rgba(0, 0, 0, 0.22);
+}
+
+.deli {
+  margin-left: 45px;
+}
+
+.horizontal-line {
+  border-top: 3px solid #c62828;
+  width: 20%;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+/* NAV */
+.navbar {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+}
+
+#mainNav,
+.dropdown-menu {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  background-color: rgba(0.5, 0.5, 0.5, 0.5);
+  transition: background-color 0.2s ease;
+}
+#mainNav .navbar-brand,
+.dropdown-item {
+  font-weight: 700;
+  color: white;
+}
+#mainNav .navbar-nav .nav-item .nav-link,
+.dropdown-item {
+  font-weight: 700;
+  font-size: 0.9rem;
+  padding: 10px;
+}
+#mainNav .navbar-nav .nav-item .nav-link:hover,
+#mainNav .navbar-nav .nav-item .nav-link:active {
+  color: #c62828;
+}
+#mainNav .navbar-nav .nav-item .nav-link.active {
+  color: #c62828 !important;
+}
+
+.dropdown-item:active:focus {
+  color: #ffffff;
+  background-color: #c62828;
+}
+
+/* JUMBTRON */
+
+header.masthead {
+  padding-top: 120px;
+  padding-bottom: calc(10rem - 4.5rem);
+  background: url("../src/img/meat.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+@media (min-width: 992px) {
+  header.masthead {
+    height: 800px;
+    min-height: 40rem;
+    padding-top: 4.5rem;
+    padding-bottom: 0;
+  }
+  header.masthead p {
+    font-size: 1.15rem;
+  }
+  header.masthead h1 {
+    font-size: 3rem;
+  }
+}
+@media (min-width: 1200px) {
+  header.masthead h1 {
+    font-size: 3.5rem;
+  }
+}
+
+.tagLine {
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  margin: 30px;
+  font-size: 35px !important;
+}
+
+.headline {
+  font-family: "Playfair Display", serif;
+  color: white;
+  font-weight: bold;
+  font-size: 7rem;
+}
+
+.container-jumbotron {
+  max-width: 80%;
+  height: auto;
+  margin: 0 auto;
+}
+
+/* ABOUT US */
+
+.aboutMeButtons {
+  margin-top: 15px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.aboutHeadline {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 45px;
+}
+
+.page-section-about {
+  padding: 8rem 0;
+}
+
+.butcherLogo {
+  margin-left: 2%;
+  float: left;
+  height: 150px;
+  padding-right: 20px;
+}
+
+.text-muted {
+  margin-left: 60px;
+  margin: 0px;
+}
+
+/* MENU */
+
+.page-section-menu {
+  padding: 8rem 0;
+  background-color: white !important;
+}
+
+.catering {
+  text-transform: uppercase;
+}
+
+/* Contact Us */
+.page-section-contact {
+  padding: 8rem 0;
+}
+
+li {
+  list-style: none;
+}
+
+.hours,
+.follow {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.error {
+  padding-top: 10px;
+  color: #c62828;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+i {
+  color: #c62828;
+  padding: 10px;
+}
+
+b {
+  font-size: 20px;
+}
+
+/* FOOTER */
+
+footer {
+  text-transform: uppercase;
+}
