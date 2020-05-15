@@ -1,0 +1,44 @@
+.butcherHeader {
+  padding-top: 110px;
+  background: url("../img/sausage.jpg");
+  width: 100% !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 65px;
+}
+
+h5 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.titleText {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  padding-top: 50px;
+}
+
+.deliTable {
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.calltoorder {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #c62828;
+  margin-top: 15px;
+}
+
+@media (max-width: 567px) {
+  .deliTable {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}

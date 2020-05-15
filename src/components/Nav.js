@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 //Navigation
 
@@ -26,9 +27,11 @@ function Nav() {
         id="mainNav"
       >
         <div className="container">
-          <a className="navbar-brand" href="#page-top">
-            G&M Market
-          </a>
+          <Link to="/">
+            <a className="navbar-brand" href="#page-top">
+              G&M Market
+            </a>
+          </Link>
           <button
             className="navbar-toggler navbar-toggler-right"
             type="button"
@@ -60,15 +63,21 @@ function Nav() {
                   Menu
                 </a>
                 <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a className="dropdown-item" href="#deli">
-                    Deli
-                  </a>
-                  <a className="dropdown-item" href="#meats">
-                    Meats
-                  </a>
-                  <a className="dropdown-item" href="#italianspecialities">
-                    Italian Specialities
-                  </a>
+                  <Link to="/deli">
+                    <a className="dropdown-item" href="#deli">
+                      Deli
+                    </a>
+                  </Link>
+                  <Link to="/butcher">
+                    <a className="dropdown-item" href="#meats">
+                      Meats
+                    </a>
+                  </Link>
+                  <Link to="/italian-specialities">
+                    <a className="dropdown-item" href="#italianspecialities">
+                      Italian Specialities
+                    </a>
+                  </Link>
                 </div>
               </li>
               <li className="nav-item">
