@@ -38,7 +38,7 @@ function Deli() {
                 Lunchmeat
               </th>
               <th align="left" style={{ textTransform: "uppercase" }}>
-                Price
+                Price /LB
               </th>
               <th align="left" style={{ textTransform: "uppercase" }}>
                 Hoagies & Hoagie Trays
@@ -49,9 +49,13 @@ function Deli() {
             </tr>
             {/* new row */}
             <tr>
+              {/* lunchmeat */}
               <td align="left">Turkey</td>
+              {/* pricing */}
               <td align="left">$4/lb</td>
+              {/* haogie options */}
               <td align="left">Turkey Hoagie</td>
+              {/* hoagie prices */}
               <td align="left">$5</td>
             </tr>
             {/* {items.map((item) => (

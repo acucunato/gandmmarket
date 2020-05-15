@@ -3,7 +3,7 @@ body {
   font-family: "Open Sans", sans-serif;
   background-color: white;
 }
-/* font-family: 'Playfair Display', serif; */
+
 a {
   color: black;
 }
@@ -36,6 +36,7 @@ a:hover {
   margin: 0 auto;
   padding-bottom: 30px;
 }
+
 /* NAV */
 .navbar {
   font-weight: bold;
