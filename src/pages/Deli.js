@@ -2,6 +2,7 @@ import React from "react";
 import "./Deli.css";
 import PagesNav from "../components/PagesNav";
 import Footer from "../components/Footer";
+import items from "../menus/deli.json";
 
 // import Footer from "../components/Footer";
 
@@ -22,8 +23,8 @@ function Deli() {
       <div className="container" style={{ textAlign: "center" }}>
         <h2 className="text-center mt-0 titleText">Menu</h2>
         <div class="horizontal-line"></div>
-        Some text here saying like using the best of deli meats, maybe brands
-        and stuff
+        Serving brands such as Dietz & Watson, Thumann; along with homemade deli
+        meats such as Roast Beef and Roast Pork.
         <div className="calltoorder">
           Call us to place an order{" "}
           <a href="tel:+1-856-939-1070">(856) 939-1070</a>
@@ -41,6 +42,30 @@ function Deli() {
                 Price /LB
               </th>
               <th align="left" style={{ textTransform: "uppercase" }}>
+                Lunchmeat
+              </th>
+              <th align="left" style={{ textTransform: "uppercase" }}>
+                Price /LB
+              </th>
+            </tr>
+            {/* new row */}
+            {items.map((item) => (
+              <tr>
+                <td align="left">{item.lunchmeat}</td>
+                <td align="left">{item.price}</td>
+                <td align="left">{item.lunchmeat2}</td>
+                <td align="left">{item.price2}</td>
+              </tr>
+            ))}
+          </table>
+        </table>
+      </div>
+      {/* hoagie table */}
+      <div className="hoagieTable">
+        <table className="table-responsive">
+          <table className="table table-hover">
+            <tr>
+              <th align="left" style={{ textTransform: "uppercase" }}>
                 Hoagies & Hoagie Trays
               </th>
               <th align="left" style={{ textTransform: "uppercase" }}>
@@ -48,21 +73,12 @@ function Deli() {
               </th>
             </tr>
             {/* new row */}
-            <tr>
-              {/* lunchmeat */}
-              <td align="left">Turkey</td>
-              {/* pricing */}
-              <td align="left">$4/lb</td>
-              {/* haogie options */}
-              <td align="left">Turkey Hoagie</td>
-              {/* hoagie prices */}
-              <td align="left">$5</td>
-            </tr>
+            <td>hoagies</td>
+            <td>price</td>
             {/* {items.map((item) => (
-              <tr key={item.id}>
-                <td align="left">{item.charityName}</td>
-                <td align="left">{item.item}</td>
-                <td align="left">{item.qty}</td>
+              <tr>
+                <td align="left">{item.lunchmeat}</td>
+                <td align="left">{item.price}</td>
               </tr>
             ))} */}
           </table>

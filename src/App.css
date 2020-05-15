@@ -113,6 +113,9 @@ header.masthead {
   .deli {
     margin: 0;
   }
+  .hours {
+    text-align: center;
+  }
 }
 
 .tagLine {

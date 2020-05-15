@@ -29,6 +29,12 @@ h5 {
   margin-right: 150px;
 }
 
+.hoagieTable {
+  margin-top: 30px;
+  margin-left: 400px;
+  margin-right: 400px;
+}
+
 .calltoorder {
   text-transform: uppercase;
   font-weight: bold;
@@ -37,7 +43,8 @@ h5 {
 }
 
 @media (max-width: 567px) {
-  .deliTable {
+  .deliTable,
+  .hoagieTable {
     margin-left: 0;
     margin-right: 0;
   }

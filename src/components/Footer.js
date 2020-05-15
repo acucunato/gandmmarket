@@ -5,7 +5,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer class="bg-white py-5">
+    <footer class="bg-white py-5 sticky-bottom">
       <div class="container">
         <div class="small text-center text-muted">
           Copyright © 2020 • G&M Market •
