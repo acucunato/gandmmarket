@@ -2,9 +2,8 @@ import React from "react";
 import "./Deli.css";
 import PagesNav from "../components/PagesNav";
 import Footer from "../components/Footer";
-import items from "../menus/deli.json";
-
-// import Footer from "../components/Footer";
+import deli from "../menus/deli.json";
+import hoagies from "../menus/hoagies.json";
 
 function Deli() {
   return (
@@ -15,9 +14,13 @@ function Deli() {
           style={{ textAlign: "center", height: 300 }}
           className="deliHeader"
         >
-          <h1 style={{ color: "white" }}>Our Deli</h1>
+          <h1 style={{ color: "white", textShadow: "1px 1px 17px black" }}>
+            Our Deli
+          </h1>
           <div class="horizontal-line"></div>
-          <h5 style={{ color: "white" }}>Lunchmeat and Hoagies</h5>
+          <h5 style={{ color: "white", textShadow: "1px 1px 17px black" }}>
+            Lunchmeat and Hoagies
+          </h5>
         </div>
       </div>
       <div className="container" style={{ textAlign: "center" }}>
@@ -49,7 +52,7 @@ function Deli() {
               </th>
             </tr>
             {/* new row */}
-            {items.map((item) => (
+            {deli.map((item) => (
               <tr>
                 <td align="left">{item.lunchmeat}</td>
                 <td align="left">{item.price}</td>
@@ -66,21 +69,18 @@ function Deli() {
           <table className="table table-hover">
             <tr>
               <th align="left" style={{ textTransform: "uppercase" }}>
-                Hoagies & Hoagie Trays
+                Hoagies & Party Trays
               </th>
               <th align="left" style={{ textTransform: "uppercase" }}>
                 Price
               </th>
             </tr>
-            {/* new row */}
-            <td>hoagies</td>
-            <td>price</td>
-            {/* {items.map((item) => (
+            {hoagies.map((item) => (
               <tr>
-                <td align="left">{item.lunchmeat}</td>
-                <td align="left">{item.price}</td>
+                <td align="left">{item.hoagie}</td>
+                <td align="left">{item.hPrice}</td>
               </tr>
-            ))} */}
+            ))}
           </table>
         </table>
       </div>

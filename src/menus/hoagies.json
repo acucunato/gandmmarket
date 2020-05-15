@@ -1,0 +1,34 @@
+[
+  {
+    "hoagie": "Small Hoagie",
+    "hPrice": "$6.00 + tax"
+  },
+  {
+    "hoagie": "Large Hoagie",
+    "hPrice": "$8.00 + tax"
+  },
+  {
+    "hoagie": "Small Hoagie Tray (36 pieces)",
+    "hPrice": "$45.00 + tax"
+  },
+  {
+    "hoagie": "Medium Hoagie Tray (48 pieces)",
+    "hPrice": "$60.00 + tax"
+  },
+  {
+    "hoagie": "Large Hoagie Tray (60 pieces)",
+    "hPrice": "$75.00 + tax"
+  },
+  {
+    "hoagie": "Small Lunchmeat Party Tray (10-15 people)",
+    "hPrice": "$50.00 + tax"
+  },
+  {
+    "hoagie": "Medium Lunchmeat Party Tray (15-20 people)",
+    "hPrice": "$60.00 + tax"
+  },
+  {
+    "hoagie": "Large Lunchmeat Party Tray (20-25 people)",
+    "hPrice": "$70.00 + tax"
+  }
+]

@@ -24,9 +24,12 @@ h5 {
   padding-top: 50px;
 }
 
-.deliTable {
-  margin-left: 150px;
-  margin-right: 150px;
+.meatsTable {
+  margin-left: 350px;
+  margin-right: 350px;
+}
+.recession {
+  margin-bottom: 50px;
 }
 
 .calltoorder {
@@ -37,8 +40,25 @@ h5 {
 }
 
 @media (max-width: 567px) {
-  .deliTable {
+  .recession,
+  .meatsTable {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .recession,
+  .meatsTable {
     margin-left: 0;
     margin-right: 0;
+  }
+}
+
+@media (max-width: 1024px) {
+  .recession,
+  .meatsTable {
+    margin-left: 150px;
+    margin-right: 150px;
   }
 }

@@ -98,5 +98,9 @@
   {
     "lunchmeat": "Chicken Steak",
     "price": "$8.00"
+  },
+  {
+    "hoagie": "tray",
+    "hPrice": "price"
   }
 ]

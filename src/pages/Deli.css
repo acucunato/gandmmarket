@@ -49,3 +49,19 @@ h5 {
     margin-right: 0;
   }
 }
+
+@media (max-width: 768px) {
+  .deliTable,
+  .hoagieTable {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+}
+
+@media (max-width: 1024px) {
+  .deliTable,
+  .hoagieTable {
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+}
