@@ -2,8 +2,8 @@ import React from "react";
 import "./ItalianSpecialities.css";
 import PagesNav from "../components/PagesNav";
 import Footer from "../components/Footer";
-
-// import Footer from "../components/Footer";
+import homemade from "../menus/homemade.json";
+import sides from "../menus/sides.json";
 
 function Deli() {
   return (
@@ -25,8 +25,8 @@ function Deli() {
       </div>
       <div className="container" style={{ textAlign: "center" }}>
         <h2 className="text-center mt-0 titleText">Menu</h2>
-        <div class="horizontal-line"></div>A variety of homemade foods, made
-        fresh in store, from recipes passed down since 1957.
+        <div class="horizontal-line"></div>A variety of homemade cuisines,
+        prepared fresh in store, from recipes passed down since 1957.
         <div className="calltoorder">
           Call us to place an order{" "}
           <a href="tel:+1-856-939-1070">(856) 939-1070</a>
@@ -38,32 +38,36 @@ function Deli() {
           <table className="table table-hover">
             <tr>
               <th align="left" style={{ textTransform: "uppercase" }}>
-                Homemade Italian Specialities
-              </th>
-              <th align="left" style={{ textTransform: "uppercase" }}>
-                Price
-              </th>
-              <th align="left" style={{ textTransform: "uppercase" }}>
-                Sides
+                Homemade Italian Eats
               </th>
               <th align="left" style={{ textTransform: "uppercase" }}>
                 Price
               </th>
             </tr>
-            {/* new row */}
-            <tr>
-              <td align="left">Turkey</td>
-              <td align="left">$4/lb</td>
-              <td align="left">Turkey Hoagie</td>
-              <td align="left">$5</td>
-            </tr>
-            {/* {items.map((item) => (
+            {homemade.map((item) => (
               <tr key={item.id}>
-                <td align="left">{item.charityName}</td>
                 <td align="left">{item.item}</td>
-                <td align="left">{item.qty}</td>
+                <td align="left">{item.price}</td>
               </tr>
-            ))} */}
+            ))}
+          </table>
+        </table>
+        <table className="table-responsive">
+          <table className="table table-hover">
+            <tr>
+              <th align="left" style={{ textTransform: "uppercase" }}>
+                Other Italian Specialities
+              </th>
+              <th align="left" style={{ textTransform: "uppercase" }}>
+                Price
+              </th>
+            </tr>
+            {sides.map((item) => (
+              <tr key={item.id}>
+                <td align="left">{item.item}</td>
+                <td align="left">{item.price}</td>
+              </tr>
+            ))}
           </table>
         </table>
       </div>

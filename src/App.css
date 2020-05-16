@@ -87,44 +87,6 @@ header.masthead {
   background-size: cover;
 }
 
-@media (min-width: 992px) {
-  header.masthead {
-    height: 800px;
-    min-height: 40rem;
-    padding-top: 4.5rem;
-    padding-bottom: 0;
-  }
-  header.masthead p {
-    font-size: 1.15rem;
-  }
-  header.masthead h1 {
-    font-size: 3rem;
-  }
-}
-@media (min-width: 1200px) {
-  header.masthead h1 {
-    font-size: 3.5rem;
-  }
-}
-
-@media (max-width: 576px) {
-  .btn {
-    margin-top: 25px;
-  }
-  .deli {
-    margin: 0;
-  }
-  .hours {
-    text-align: center;
-  }
-  .tagLine {
-    font-size: 25px;
-  }
-  .headline {
-    font-size: 6rem;
-  }
-}
-
 .tagLine {
   font-family: "Open Sans", sans-serif;
   text-transform: uppercase;
@@ -218,4 +180,70 @@ b {
 
 footer {
   text-transform: uppercase;
+}
+/*  responsive */
+
+@media (min-width: 992px) {
+  header.masthead {
+    height: 800px;
+    min-height: 40rem;
+    padding-top: 4.5rem;
+    padding-bottom: 0;
+  }
+  header.masthead p {
+    font-size: 1.15rem;
+  }
+  header.masthead h1 {
+    font-size: 3rem;
+  }
+}
+@media (min-width: 1200px) {
+  header.masthead h1 {
+    font-size: 3.5rem;
+  }
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) {
+  .btn {
+    margin-top: 25px;
+  }
+  .deli {
+    margin: 0;
+  }
+  .hours {
+    text-align: center;
+  }
+  .tagLine {
+    font-size: 25px;
+  }
+  .headline {
+    font-size: 6rem;
+  }
+
+  #poppic {
+    margin-top: 30px;
+    width: 300px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 1024px) {
+  #poppic {
+    width: 550px;
+    height: 450px;
+  }
+  #map {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+@media (max-width: 768px) {
+  #poppic {
+    margin-top: 30px;
+  }
+  #map {
+    width: 250px;
+    height: 250px;
+  }
 }

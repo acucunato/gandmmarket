@@ -1,0 +1,42 @@
+[
+  {
+    "item": "Freshly Grated Pecorino Romano Cheese",
+    "price": "$10.00/LB"
+  },
+  {
+    "item": "Sharp Chunk Provolone Cheese",
+    "price": "$10.00/LB"
+  },
+  {
+    "item": "Extra Sharp Chunk Provolone Cheese",
+    "price": "$12.00/LB"
+  },
+  {
+    "item": "Potato Salad",
+    "price": "$3.50/LB"
+  },
+  {
+    "item": "Macaroni Salad",
+    "price": "$3.50/LB"
+  },
+  {
+    "item": "Cole Slaw",
+    "price": "$3.50/LB"
+  },
+  {
+    "item": "Seasoned Mozzarella Balls",
+    "price": "$8.00/LB"
+  },
+  {
+    "item": "Seasoned Roasted Red Peppers",
+    "price": "$6.00/LB"
+  },
+  {
+    "item": "Pepper Shooters",
+    "price": "$8.00/LB"
+  },
+  {
+    "item": "Olives",
+    "price": "$9.00/Container"
+  }
+]

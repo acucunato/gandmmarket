@@ -1,0 +1,26 @@
+[
+  {
+    "item": "Chicken Chili",
+    "price": "$9.00/QT"
+  },
+  {
+    "item": "Meatballs",
+    "price": "$9.00/LB"
+  },
+  {
+    "item": "Chicken Meatballs",
+    "price": "$7.00/LB"
+  },
+  {
+    "item": "Sunday Gravy",
+    "price": "$6.00/QT"
+  },
+  {
+    "item": "Pulled Pork",
+    "price": "$16.00/QT"
+  },
+  {
+    "item": "Chicken Scalipini",
+    "price": "$14.00/QT"
+  }
+]

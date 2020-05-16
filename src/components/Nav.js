@@ -46,8 +46,8 @@ function Nav() {
           <div className="collapse navbar-collapse" id="navbarResponsive">
             <ul className="navbar-nav ml-auto my-2 my-lg-0">
               <li className="nav-item">
-                <a className="nav-link" href="#about">
-                  About Us
+                <a className="nav-link" href="#history">
+                  Our History
                 </a>
               </li>
               <li className="nav-item dropdown">

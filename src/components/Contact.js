@@ -20,6 +20,7 @@ function Menu() {
               aria-hidden="false"
               tabindex="0"
               title="maptogm"
+              id="map"
             ></iframe>
           </div>
           <div className="col-md-4 text-center">
