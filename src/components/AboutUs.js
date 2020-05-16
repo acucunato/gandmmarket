@@ -16,11 +16,37 @@ function About() {
             </h5>
             <br />
             <img src={flag} alt="italianflag" className="butcherLogo" />
-            <p className="text-muted mb-0">
-              In 1957, a couple of young butchers from 9th St in South Philly
-              came to Jersey to start a deli and butcher business of their own,
-              this is where G&M Super Market was established.
+            <p className="text-muted mb-0" style={{ textIndent: "25px" }}>
+              In 1957, two butchers from 9th St in South Philly, Fred Guido and
+              Hank Mariotti, came to Jersey to open a business of their own, and
+              G&M Super Market was established.
+              <p style={{ textIndent: "25px" }}>
+                In 1979 Hank enlisted the help of his son Gary, creating a true
+                family-run business. Gary and Hank worked together for over 40
+                years, cultivating an old-school, traditional, small-town
+                Italian deli and butcher shop. During this time, G&M became
+                known for having the “best roast beef and roast pork” along with
+                handcrafted, homemade Italian specialities and the best quality
+                hand cut meats. G&M was recognized for awards such as Best of
+                South Jersey, the Heritage Award of Gloucester Twp, and the
+                Courier Post and also featured in the Philadelphia Inquirer.
+              </p>
+              <p style={{ textIndent: "25px" }}>
+                As the family grew, it became a tradition to work at the deli,
+                learning the tricks of the trade. Hank’s grandson and Gary’s
+                nephew, Brett joined the business in 2008, acquiring the same
+                knowledge and skill and has since taken over the family business
+                creating a third generation run establishment.
+              </p>
+              <p style={{ textIndent: "25px" }}>
+                With Brett and his brother Jesse as his right hand, G&M will
+                continue to bring hand cut meats, the best deli selection, and
+                Italian delicacies into your home.
+              </p>
             </p>
+            <h5 className="text-center mt-0">
+              "Good Meat isn't Cheap, Cheap Meat isn't Good!"
+            </h5>
           </div>
         </div>
         <br />

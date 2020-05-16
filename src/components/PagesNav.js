@@ -34,6 +34,38 @@ function Nav() {
             </Link>
           </a>
           <div className="collapse navbar-collapse" id="navbarResponsive"></div>
+
+          <li className="nav-item dropdown">
+            <a
+              className="nav-link dropdown-toggle"
+              href="#menu-dropdown"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+              style={{ color: "white" }}
+            >
+              Menu
+            </a>
+            <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+              <Link to="/deli">
+                <a className="dropdown-item" href="#deli">
+                  Deli
+                </a>
+              </Link>
+              <Link to="/butcher">
+                <a className="dropdown-item" href="#meats">
+                  Meats
+                </a>
+              </Link>
+              <Link to="/italian-specialities">
+                <a className="dropdown-item" href="#italianspecialities">
+                  Italian Specialities
+                </a>
+              </Link>
+            </div>
+          </li>
         </div>
       </nav>
     </header>
