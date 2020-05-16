@@ -227,20 +227,39 @@ footer {
   }
 }
 
-@media (max-width: 1024px) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   #poppic {
     width: 550px;
     height: 450px;
   }
+
   #map {
     width: 250px;
     height: 250px;
   }
 }
 
-@media (max-width: 768px) {
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+  .btn {
+    margin-top: 25px;
+  }
+  .deli {
+    margin: 0;
+  }
+  .hours {
+    text-align: center;
+  }
+  .tagLine {
+    font-size: 25px;
+  }
+  .headline {
+    font-size: 6rem;
+  }
+
   #poppic {
     margin-top: 30px;
+    width: 300px;
+    height: 200px;
   }
   #map {
     width: 250px;
