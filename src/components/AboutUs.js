@@ -9,6 +9,10 @@ function About() {
           <div className="col-lg-9">
             <h2 className="text-center mt-0 aboutHeadline">About Us</h2>
             <div class="horizontal-line"></div>
+            <h5 className="text-center mt-0">
+              Family Owned and Operated Since 1957
+            </h5>
+            <br />
             <img src={flag} alt="italianflag" className="butcherLogo" />
             <p className="text-muted mb-0">
               Lorem ipsum dolor sit amet, eam error virtute at, eum ut

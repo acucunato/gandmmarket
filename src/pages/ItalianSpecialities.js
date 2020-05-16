@@ -25,9 +25,8 @@ function Deli() {
       </div>
       <div className="container" style={{ textAlign: "center" }}>
         <h2 className="text-center mt-0 titleText">Menu</h2>
-        <div class="horizontal-line"></div>
-        Some text here saying like using the best of deli meats, maybe brands
-        and stuff
+        <div class="horizontal-line"></div>A variety of homemade foods, made
+        fresh in store, from recipes passed down since 1957.
         <div className="calltoorder">
           Call us to place an order{" "}
           <a href="tel:+1-856-939-1070">(856) 939-1070</a>
@@ -39,13 +38,13 @@ function Deli() {
           <table className="table table-hover">
             <tr>
               <th align="left" style={{ textTransform: "uppercase" }}>
-                Lunchmeat
+                Homemade Italian Specialities
               </th>
               <th align="left" style={{ textTransform: "uppercase" }}>
                 Price
               </th>
               <th align="left" style={{ textTransform: "uppercase" }}>
-                Hoagies & Hoagie Trays
+                Sides
               </th>
               <th align="left" style={{ textTransform: "uppercase" }}>
                 Price
