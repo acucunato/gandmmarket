@@ -1,0 +1,34 @@
+[
+  {
+    "meat": "Boneless Chicken Breast",
+    "price": "$6.00"
+  },
+  {
+    "meat": "Chicken Cutlets",
+    "price": "$6.00"
+  },
+  {
+    "meat": "Bone-In Chicken Breast",
+    "price": "$3.00"
+  },
+  {
+    "meat": "Bone-In Chicken Legs & Thighs",
+    "price": "$3.00"
+  },
+  {
+    "meat": "Boneless Skinless Chicken Thighs",
+    "price": "$4.50"
+  },
+  {
+    "meat": "Jumbo Party Wings",
+    "price": "$4.00"
+  },
+  {
+    "meat": "3LB Box Chicken Burgers",
+    "price": "$20.00/box"
+  },
+  {
+    "meat": "Fresh Ground Chicken",
+    "price": "$6.00"
+  }
+]

@@ -10,7 +10,9 @@ function Jumbotron() {
           <div className="col-lg-10 align-self-end headline">G&M Market</div>
           <div className="col-lg-8 align-self-baseline">
             <div class="horizontal-line"></div>
-            <p className="tagLine">Fresh Cut Meats and Deli</p>
+            <p className="tagLine" style={{ fontSize: "35px" }}>
+              Fresh Cut Meats and Deli
+            </p>
           </div>
         </div>
       </div>

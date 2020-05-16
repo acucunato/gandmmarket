@@ -1,0 +1,46 @@
+[
+  {
+    "meat": "NY Strip Steak",
+    "price": "$17.00"
+  },
+  {
+    "meat": "Ribeye",
+    "price": "$17.00"
+  },
+  {
+    "meat": "Filet Mignon (by the piece; 4-6 steaks)",
+    "price": "$17.00"
+  },
+  {
+    "meat": "Wagyu Steak",
+    "price": "$30.00"
+  },
+  {
+    "meat": "Top/Bottom Round Beef Roasts",
+    "price": "$9.00"
+  },
+  {
+    "meat": "Beef Cubes",
+    "price": "$9.00"
+  },
+  {
+    "meat": "Ground Sirloin",
+    "price": "$10.00"
+  },
+  {
+    "meat": "Beef Brisket",
+    "price": "$6.00"
+  },
+  {
+    "meat": "3LB Box Hamburgers",
+    "price": "$28.00/box"
+  },
+  {
+    "meat": "Fresh Ground Beef",
+    "price": "$9.00"
+  },
+  {
+    "meat": "Fresh Ground Mix (Beef, Pork, Veal)",
+    "price": "$9.00"
+  }
+]

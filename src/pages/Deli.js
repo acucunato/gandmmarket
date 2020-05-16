@@ -42,13 +42,13 @@ function Deli() {
                 Lunchmeat
               </th>
               <th align="left" style={{ textTransform: "uppercase" }}>
-                Price /LB
+                Price/LB
               </th>
               <th align="left" style={{ textTransform: "uppercase" }}>
                 Lunchmeat
               </th>
               <th align="left" style={{ textTransform: "uppercase" }}>
-                Price /LB
+                Price/LB
               </th>
             </tr>
             {/* new row */}

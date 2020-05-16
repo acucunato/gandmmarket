@@ -2,7 +2,10 @@ import React from "react";
 import "./Butcher.css";
 import PagesNav from "../components/PagesNav";
 import Footer from "../components/Footer";
-import meats from "../menus/meats.json";
+import sausage from "../menus/sausage.json";
+import beef from "../menus/beef.json";
+import chicken from "../menus/chicken.json";
+import pork from "../menus/pork.json";
 
 function Butcher() {
   return (
@@ -47,9 +50,18 @@ function Butcher() {
           <div className="card-body">
             <h5 className="card-title">RECESSION BUSTER!</h5>
             <h6 className="card-subtitle mb-2">$70</h6>
+            <h6
+              className="card-subtitle mb-2"
+              style={{ color: "#c62828", textTransform: "uppercase" }}
+            >
+              Feed a family of 5 for a week!
+            </h6>
             <p className="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              <p>2lb of ground beef or ground mix</p>
+              <p>2lb of beef cubes</p>
+              <p>2lb of pork chops or pork cutlets </p>
+              <p>2lb of chicken breasts or cutlets </p>
+              <p>2lb of choice of any sausage</p>
             </p>
           </div>
         </div>
@@ -59,13 +71,67 @@ function Butcher() {
           <table className="table table-hover">
             <tr>
               <th align="left" style={{ textTransform: "uppercase" }}>
-                Meats
+                Homemade Sausage
               </th>
               <th align="left" style={{ textTransform: "uppercase" }}>
-                Price /LB
+                Price/LB
               </th>
             </tr>
-            {meats.map((item) => (
+            {sausage.map((item) => (
+              <tr>
+                <td align="left">{item.meat}</td>
+                <td align="left">{item.price}</td>
+              </tr>
+            ))}
+          </table>
+        </table>
+        <table className="table-responsive">
+          <table className="table table-hover">
+            <tr>
+              <th align="left" style={{ textTransform: "uppercase" }}>
+                Beef
+              </th>
+              <th align="left" style={{ textTransform: "uppercase" }}>
+                Price/LB
+              </th>
+            </tr>
+            {beef.map((item) => (
+              <tr>
+                <td align="left">{item.meat}</td>
+                <td align="left">{item.price}</td>
+              </tr>
+            ))}
+          </table>
+        </table>
+        <table className="table-responsive">
+          <table className="table table-hover">
+            <tr>
+              <th align="left" style={{ textTransform: "uppercase" }}>
+                Chicken
+              </th>
+              <th align="left" style={{ textTransform: "uppercase" }}>
+                Price/LB
+              </th>
+            </tr>
+            {chicken.map((item) => (
+              <tr>
+                <td align="left">{item.meat}</td>
+                <td align="left">{item.price}</td>
+              </tr>
+            ))}
+          </table>
+        </table>
+        <table className="table-responsive">
+          <table className="table table-hover">
+            <tr>
+              <th align="left" style={{ textTransform: "uppercase" }}>
+                Pork
+              </th>
+              <th align="left" style={{ textTransform: "uppercase" }}>
+                Price/LB
+              </th>
+            </tr>
+            {pork.map((item) => (
               <tr>
                 <td align="left">{item.meat}</td>
                 <td align="left">{item.price}</td>
