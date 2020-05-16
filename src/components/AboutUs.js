@@ -25,14 +25,15 @@ function About() {
                 family-run business. Gary and Hank worked together for over 40
                 years, cultivating an old-school, traditional, small-town
                 Italian deli and butcher shop. During this time, G&M became
-                known for having the “best roast beef and roast pork” along with
-                handcrafted, homemade Italian specialities and the best quality
-                hand cut meats. G&M was recognized for awards such as Best of
-                South Jersey, the Heritage Award of Gloucester Twp, and the
-                Courier Post and also featured in the Philadelphia Inquirer.
+                known for having the “best homemade roast beef and roast pork”
+                along with handcrafted, homemade Italian specialities and the
+                best quality hand cut meats. G&M was recognized for awards such
+                as Best of South Jersey, the Heritage Award of Gloucester Twp,
+                and the Courier Post and also featured in the Philadelphia
+                Inquirer.
               </p>
               <p style={{ textIndent: "25px" }}>
-                As the family grew, it became a tradition to work at the deli,
+                As the family grew, it became a tradition to work at the shop
                 learning the tricks of the trade. Hank’s grandson and Gary’s
                 nephew, Brett joined the business in 2008, acquiring the same
                 knowledge and skill and has since taken over the family business

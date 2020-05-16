@@ -6,6 +6,7 @@ import sausage from "../menus/sausage.json";
 import beef from "../menus/beef.json";
 import chicken from "../menus/chicken.json";
 import pork from "../menus/pork.json";
+import seafood from "../menus/seafood.json";
 
 function Butcher() {
   return (
@@ -132,6 +133,24 @@ function Butcher() {
               </th>
             </tr>
             {pork.map((item) => (
+              <tr>
+                <td align="left">{item.meat}</td>
+                <td align="left">{item.price}</td>
+              </tr>
+            ))}
+          </table>
+        </table>
+        <table className="table-responsive">
+          <table className="table table-hover">
+            <tr>
+              <th align="left" style={{ textTransform: "uppercase" }}>
+                Seafood
+              </th>
+              <th align="left" style={{ textTransform: "uppercase" }}>
+                Price
+              </th>
+            </tr>
+            {seafood.map((item) => (
               <tr>
                 <td align="left">{item.meat}</td>
                 <td align="left">{item.price}</td>

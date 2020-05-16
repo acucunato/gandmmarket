@@ -1,0 +1,22 @@
+[
+  {
+    "meat": "Crab Cakes",
+    "price": "$5.00/ea"
+  },
+  {
+    "meat": "Crab Cake Bites",
+    "price": "$22.00/bag"
+  },
+  {
+    "meat": "Deviled Crab Cakes",
+    "price": "$10.00/bag"
+  },
+  {
+    "meat": "Breaded Butterfly Shrimp",
+    "price": "$30.00/box"
+  },
+  {
+    "meat": "Coconut Breaded Butterfly Shrimp",
+    "price": "$30.00/box"
+  }
+]

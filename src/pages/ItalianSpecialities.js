@@ -4,6 +4,7 @@ import PagesNav from "../components/PagesNav";
 import Footer from "../components/Footer";
 import homemade from "../menus/homemade.json";
 import sides from "../menus/sides.json";
+import pastas from "../menus/pasta.json";
 
 function Deli() {
   return (
@@ -47,6 +48,25 @@ function Deli() {
             {homemade.map((item) => (
               <tr key={item.id}>
                 <td align="left">{item.item}</td>
+                <td align="left">{item.price}</td>
+              </tr>
+            ))}
+          </table>
+        </table>
+        {/* pastas */}
+        <table className="table-responsive">
+          <table className="table table-hover">
+            <tr>
+              <th align="left" style={{ textTransform: "uppercase" }}>
+                Scarmuzza Pasta
+              </th>
+              <th align="left" style={{ textTransform: "uppercase" }}>
+                Price
+              </th>
+            </tr>
+            {pastas.map((item) => (
+              <tr key={item.id}>
+                <td align="left">{item.pasta}</td>
                 <td align="left">{item.price}</td>
               </tr>
             ))}

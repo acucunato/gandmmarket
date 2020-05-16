@@ -1,5 +1,10 @@
 [
   {
+    "item": "Fortes Cheesesteak Stromboli",
+    "price": "$8.99"
+  },
+  { "item": "Fortes Pepperoni and Cheese Stromboli", "price": "$8.99" },
+  {
     "item": "Freshly Grated Pecorino Romano Cheese",
     "price": "$10.00/LB"
   },
