@@ -30,7 +30,7 @@ function Nav() {
         <div className="container">
           <a className="navbar-brand" href="#page-top">
             <Link to="/" style={{ color: "white" }}>
-              Back to G&M Market
+              G&M Market
             </Link>
           </a>
           <div className="collapse navbar-collapse" id="navbarResponsive"></div>

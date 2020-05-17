@@ -52,7 +52,7 @@ function About() {
         </div>
         <br />
         <div className="row justify-content-center">
-          <div className="col-lg-4">
+          <div className="col-lg-4 photos text-center">
             <img
               src={owner}
               alt="brettandjessie"
@@ -60,7 +60,7 @@ function About() {
               height="450px"
             />
           </div>
-          <div className="col-lg-6">
+          <div className="col-lg-6 photos text-center">
             <img
               src={pop}
               alt="popandgary"

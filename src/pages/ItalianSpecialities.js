@@ -20,7 +20,7 @@ function Deli() {
           </h1>
           <div class="horizontal-line"></div>
           <h5 style={{ color: "white", textShadow: "1px 1px 17px black" }}>
-            Selection of homemade & italian Specialities
+            Selection of homemade and italian Specialities
           </h5>
         </div>
       </div>
