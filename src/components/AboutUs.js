@@ -5,18 +5,27 @@ import pop from "../img/pop.png";
 
 function About() {
   return (
-    <section className="page-section-about" id="history">
+    <section className="page-section-about " id="history">
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-9">
-            <h2 className="text-center mt-0 aboutHeadline">Our History</h2>
+            <h2 className="text-center mt-0 aboutHeadline wow bounceInDown">
+              Our History
+            </h2>
             <div class="horizontal-line"></div>
-            <h5 className="text-center mt-0">
+            <h5 className="text-center mt-0 wow bounceInUp">
               Family Owned and Operated Since 1957
             </h5>
             <br />
-            <img src={flag} alt="italianflag" className="butcherLogo" />
-            <p className="text-muted mb-0" style={{ textIndent: "25px" }}>
+            <img
+              src={flag}
+              alt="italianflag"
+              className="butcherLogo wow fadeIn delay-1s"
+            />
+            <p
+              className="text-muted mb-0 wow fadeIn delay-1s"
+              style={{ textIndent: "25px" }}
+            >
               In 1957, two butchers from 9th St in South Philly, Fred Guido and
               Hank Mariotti, came to Jersey to open a business of their own, and
               G&M Super Market was established.
@@ -45,14 +54,14 @@ function About() {
                 Italian delicacies into your home.
               </p>
             </p>
-            <h5 className="text-center mt-0">
+            <h5 className="text-center mt-0 wow jackInTheBox delay-2s">
               "Good Meat isn't Cheap, Cheap Meat isn't Good!"
             </h5>
           </div>
         </div>
         <br />
         <div className="row justify-content-center">
-          <div className="col-lg-4 photos text-center">
+          <div className="col-lg-4 photos text-center wow flipInX delay-2s">
             <img
               src={owner}
               alt="brettandjessie"
@@ -60,7 +69,7 @@ function About() {
               height="450px"
             />
           </div>
-          <div className="col-lg-6 photos text-center">
+          <div className="col-lg-6 photos text-center wow flipInX delay-2s">
             <img
               src={pop}
               alt="popandgary"

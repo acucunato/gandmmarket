@@ -1,31 +1,42 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-
-//Navigation
+import useWindowScrollPosition from "@rehooks/window-scroll-position";
+import WOW from "wow.js";
 
 function Nav() {
-  const [header, setHeader] = useState("nav");
+  const [change, setChange] = useState(false);
+  const changePosition = 200;
 
-  const listenScrollEvent = (event) => {
-    if (window.scrollY < 73) {
-      return setHeader("nav");
-    } else if (window.scrollY > 100) {
-      return setHeader("nav2");
-    }
+  let position = useWindowScrollPosition();
+  // position == { x: 0, y: 0 }
+
+  if (position.y > changePosition && !change) {
+    setChange(true);
+  }
+
+  if (position.y <= changePosition && change) {
+    setChange(false);
+  }
+
+  let style = {
+    backgroundColor: change ? "rgba(0.5, 0.5, 0.5, 0.5)" : "transparent",
+    transition: "600ms ease",
+    right: 0,
+    left: 0,
+    top: 0,
   };
-
   useEffect(() => {
-    window.addEventListener("scroll", listenScrollEvent);
-
-    return () => window.removeEventListener("scroll", listenScrollEvent);
+    const wow = new WOW();
+    wow.init();
   }, []);
+  //Navigation
 
   return (
-    <header className={header}>
+    <header>
       <nav
-        className="navbar navbar-expand-lg navbar-dark fixed-top py-3"
+        className="navbar navbar-expand-lg navbar-dark fixed-top py-3 wow fadeIn delay-1s"
         id="mainNav"
-        style={{ backgroundColor: "transparent", boxShadow: "none" }}
+        style={style}
       >
         <div className="container">
           <a className="navbar-brand" href="#page-top">

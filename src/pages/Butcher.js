@@ -17,16 +17,25 @@ function Butcher() {
           style={{ textAlign: "center", height: 300 }}
           className="butcherHeader"
         >
-          <h1 style={{ color: "white", textShadow: "1px 1px 17px black" }}>
+          <h1
+            className="wow fadeInUp"
+            style={{ color: "white", textShadow: "1px 1px 17px black" }}
+          >
             Our Meats
           </h1>
           <div className="horizontal-line"></div>
-          <h5 style={{ color: "white", textShadow: "1px 1px 17px black" }}>
+          <h5
+            className="wow fadeInDown"
+            style={{ color: "white", textShadow: "1px 1px 17px black" }}
+          >
             Handcut Meats and Homemade Sausage
           </h5>
         </div>
       </div>
-      <div className="container" style={{ textAlign: "center" }}>
+      <div
+        className="container wow fadeIn delay-1s"
+        style={{ textAlign: "center" }}
+      >
         <h2 className="text-center mt-0 titleText">Menu</h2>
         <div className="horizontal-line"></div>A selection of our handcut meats,
         and homemade sausages.
@@ -39,7 +48,7 @@ function Butcher() {
         </div>
       </div>
       <br />
-      <div className="recession">
+      <div className="recession wow jackInTheBox delay-2s">
         <div
           className="card mx-auto"
           style={{
@@ -58,16 +67,16 @@ function Butcher() {
               Feed a family of 5 for a week!
             </h6>
             <p className="card-text">
-              <p>2lb of ground beef or ground mix</p>
-              <p>2lb of beef cubes</p>
-              <p>2lb of pork chops or pork cutlets </p>
-              <p>2lb of chicken breasts or cutlets </p>
-              <p>2lb of choice of any sausage</p>
+              <p>2LB of Ground Beef or Ground Mix</p>
+              <p>2LB of Beef Cubes</p>
+              <p>2LB of Pork Chops or Pork Cutlets</p>
+              <p>2LB of Chicken Breasts or Chicken Cutlets</p>
+              <p>2LB of Choice of ANY Sausage</p>
             </p>
           </div>
         </div>
       </div>
-      <div className="meatsTable">
+      <div className="meatsTable wow fadeIn delay-2s">
         <table className="table-responsive">
           <table className="table table-hover">
             <tr>

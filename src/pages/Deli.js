@@ -14,16 +14,25 @@ function Deli() {
           style={{ textAlign: "center", height: 300 }}
           className="deliHeader"
         >
-          <h1 style={{ color: "white", textShadow: "1px 1px 17px black" }}>
+          <h1
+            className="wow fadeInUp"
+            style={{ color: "white", textShadow: "1px 1px 17px black" }}
+          >
             Our Deli
           </h1>
           <div class="horizontal-line"></div>
-          <h5 style={{ color: "white", textShadow: "1px 1px 17px black" }}>
+          <h5
+            className="wow fadeInDown"
+            style={{ color: "white", textShadow: "1px 1px 17px black" }}
+          >
             Lunchmeat and Hoagies
           </h5>
         </div>
       </div>
-      <div className="container" style={{ textAlign: "center" }}>
+      <div
+        className="container wow fadeIn delay-1s"
+        style={{ textAlign: "center" }}
+      >
         <h2 className="text-center mt-0 titleText">Menu</h2>
         <div class="horizontal-line"></div>
         Serving brands such as Dietz & Watson, Thumann; along with homemade deli
@@ -34,7 +43,7 @@ function Deli() {
         </div>
       </div>
       <br />
-      <div className="deliTable">
+      <div className="deliTable wow fadeIn delay-2s">
         <table className="table-responsive">
           <table className="table table-hover">
             <tr>
@@ -64,7 +73,7 @@ function Deli() {
         </table>
       </div>
       {/* hoagie table */}
-      <div className="hoagieTable">
+      <div className="hoagieTable wow fadeIn delay-1s">
         <table className="table-responsive">
           <table className="table table-hover">
             <tr>

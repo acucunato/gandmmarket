@@ -15,16 +15,25 @@ function Deli() {
           style={{ textAlign: "center", height: 300 }}
           className="italianHeader"
         >
-          <h1 style={{ color: "white", textShadow: "1px 1px 17px black" }}>
+          <h1
+            className="wow fadeInUp"
+            style={{ color: "white", textShadow: "1px 1px 17px black" }}
+          >
             Italian Specialities
           </h1>
           <div class="horizontal-line"></div>
-          <h5 style={{ color: "white", textShadow: "1px 1px 17px black" }}>
+          <h5
+            className="wow fadeInDown"
+            style={{ color: "white", textShadow: "1px 1px 17px black" }}
+          >
             Selection of homemade and italian Specialities
           </h5>
         </div>
       </div>
-      <div className="container" style={{ textAlign: "center" }}>
+      <div
+        className="container wow fadeIn delay-1s"
+        style={{ textAlign: "center" }}
+      >
         <h2 className="text-center mt-0 titleText">Menu</h2>
         <div class="horizontal-line"></div>A variety of homemade cuisines,
         prepared fresh in store, from recipes passed down since 1957.
@@ -34,7 +43,7 @@ function Deli() {
         </div>
       </div>
       <br />
-      <div className="deliTable">
+      <div className="deliTable wow fadeIn delay-2s">
         <table className="table-responsive">
           <table className="table table-hover">
             <tr>

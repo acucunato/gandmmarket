@@ -4,11 +4,13 @@ import React from "react";
 function Menu() {
   return (
     <section className="page-section-contact" id="contact">
-      <h2 className="text-center mt-0 aboutHeadline">Contact Us</h2>
+      <h2 className="text-center mt-0 aboutHeadline wow bounceInDown">
+        Contact Us
+      </h2>
       <div class="horizontal-line"></div>
       <div className="container">
         <div className="row">
-          <div className="col-md-4 text-center">
+          <div className="col-md-4 text-center wow flipInX delay-1s">
             <h4 className="hours">Visit Us</h4>
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6126.612808423309!2d-75.068301!3d39.844966!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6ce0c9586a741%3A0xce73eb8e2107a9cf!2sG%20%26%20M%20Super%20Market!5e0!3m2!1sen!2sus!4v1589644066375!5m2!1sen!2sus"
@@ -23,7 +25,7 @@ function Menu() {
               id="map"
             ></iframe>
           </div>
-          <div className="col-md-4 text-center">
+          <div className="col-md-4 text-center wow flipInX delay-2s">
             <ul>
               <h4 className="hours">Our Hours</h4>
               <li>Monday 9am-4:30pm</li>
@@ -36,7 +38,7 @@ function Menu() {
               <li className="error">Hours subject to change due to COVID-19</li>
             </ul>
           </div>
-          <div className="col-md-4">
+          <div className="col-md-4 wow flipInX delay-3s">
             <ul>
               <h4 className="hours">Stay In Touch</h4>
               <li>
