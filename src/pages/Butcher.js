@@ -43,9 +43,6 @@ function Butcher() {
           Call us to place an order{" "}
           <a href="tel:+1-856-939-1070">(856) 939-1070</a>
         </div>
-        <div style={{ color: "#c62828", padding: "10px" }}>
-          * prices subject to change due to COVID-19 *
-        </div>
       </div>
       <br />
       <div className="recession wow jackInTheBox delay-2s">
@@ -59,7 +56,7 @@ function Butcher() {
         >
           <div className="card-body">
             <h5 className="card-title">RECESSION BUSTER!</h5>
-            <h6 className="card-subtitle mb-2">$70</h6>
+            <h6 className="card-subtitle mb-2">$50</h6>
             <h6
               className="card-subtitle mb-2"
               style={{ color: "#c62828", textTransform: "uppercase" }}

@@ -1,22 +1,22 @@
 [
   {
     "meat": "Sweet Sausage",
-    "price": "$6.00"
+    "price": "$5.00"
   },
   {
     "meat": "Hot Sausage",
-    "price": "$6.00"
+    "price": "$5.00"
   },
   {
     "meat": "Broccoli Rabe Sausage",
-    "price": "$7.00"
+    "price": "$6.00"
   },
   {
     "meat": "*NEW!* Buffalo Chicken Sausage",
-    "price": "$6.00"
+    "price": "$5.00"
   },
   {
     "meat": "Chicken Sausage",
-    "price": "$6.00"
+    "price": "$5.00"
   }
 ]

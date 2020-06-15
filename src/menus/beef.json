@@ -1,15 +1,19 @@
 [
   {
     "meat": "NY Strip Steak",
-    "price": "$17.00"
+    "price": "MRKT Price"
   },
   {
     "meat": "Ribeye",
-    "price": "$17.00"
+    "price": "MRKT Price"
+  },
+  {
+    "meat": "Tomahawk Steak",
+    "price": "MRKT Price"
   },
   {
     "meat": "Filet Mignon (by the piece; 4-6 steaks)",
-    "price": "$17.00"
+    "price": "$16.00"
   },
   {
     "meat": "Wagyu Steak",
@@ -17,15 +21,15 @@
   },
   {
     "meat": "Top/Bottom Round Beef Roasts",
-    "price": "$9.00"
+    "price": "$7.00"
   },
   {
     "meat": "Beef Cubes",
-    "price": "$9.00"
+    "price": "$7.00"
   },
   {
     "meat": "Ground Sirloin",
-    "price": "$10.00"
+    "price": "$7.00"
   },
   {
     "meat": "Beef Brisket",
@@ -33,14 +37,14 @@
   },
   {
     "meat": "3LB Box Hamburgers",
-    "price": "$28.00/box"
+    "price": "$20.00/box"
   },
   {
     "meat": "Fresh Ground Beef",
-    "price": "$9.00"
+    "price": "$6.00"
   },
   {
     "meat": "Fresh Ground Mix (Beef, Pork, Veal)",
-    "price": "$9.00"
+    "price": "$6.00"
   }
 ]

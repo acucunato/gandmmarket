@@ -27,15 +27,15 @@ function Menu() {
           </div>
           <div className="col-md-4 text-center wow flipInX delay-2s">
             <ul>
-              <h4 className="hours">Our Hours</h4>
-              <li>Monday 9am-4:30pm</li>
-              <li>Tuesday 9am-4:30pm</li>
-              <li>Wednesday 9am-4:30pm</li>
-              <li>Thursday 9am-4:30pm</li>
-              <li>Friday 9am-4:30pm</li>
-              <li>Saturday 9am-3:30pm</li>
-              <li>Sunday 9am-1:30pm</li>
-              <li className="error">Hours subject to change due to COVID-19</li>
+              <h4 className="hours">Our Summer Hours</h4>
+              <li>Monday 9am-4pm</li>
+              <li>Tuesday 9am-4pm</li>
+              <li>Wednesday 9am-4pm</li>
+              <li>Thursday 9am-4pm</li>
+              <li>Friday 9am-4pm</li>
+              <li>Saturday 9am-3pm</li>
+              <li>Sunday 9am-1pm</li>
+              {/* <li className="error">Summer Hours</li> */}
             </ul>
           </div>
           <div className="col-md-4 wow flipInX delay-3s">

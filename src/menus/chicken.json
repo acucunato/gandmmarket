@@ -1,11 +1,11 @@
 [
   {
     "meat": "Boneless Chicken Breast",
-    "price": "$6.00"
+    "price": "$4.50"
   },
   {
     "meat": "Chicken Cutlets",
-    "price": "$6.00"
+    "price": "$5.00"
   },
   {
     "meat": "Bone-In Chicken Breast",
@@ -25,10 +25,10 @@
   },
   {
     "meat": "3LB Box Chicken Burgers",
-    "price": "$20.00/box"
+    "price": "$18.00/box"
   },
   {
     "meat": "Fresh Ground Chicken",
-    "price": "$6.00"
+    "price": "$5.00"
   }
 ]

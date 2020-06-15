@@ -1,18 +1,22 @@
 [
   {
     "meat": "Pork Cutlet",
-    "price": "$6.00"
+    "price": "$5.00"
   },
   {
     "meat": "Boneless Pork Chops",
-    "price": "$6.00"
+    "price": "$5.00"
   },
   {
     "meat": "Bone-In Pork Chops",
-    "price": "$6.00"
+    "price": "$5.00"
+  },
+  {
+    "meat": "Un-Seasoned Pork Roast",
+    "price": "$5.00"
   },
   {
     "meat": "Seasoned Pork Roast",
-    "price": "$6.00"
+    "price": "$5.50"
   }
 ]
