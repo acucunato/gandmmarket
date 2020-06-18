@@ -1,7 +1,13 @@
 import React from "react";
-import flag from "../img/italianflag.png";
-import owner from "../img/owners.jpg";
-import pop from "../img/pop.png";
+import apron from "../img/1957.jpeg";
+import owner from "../img/brett&jesse.jpeg";
+import pop from "../img/pop&gar.jpeg";
+import storefront from "../img/storefront.jpeg";
+// import sign from "../img/sign.jpeg";
+import groundmeat from "../img/groundmeat.jpeg";
+import cuttingmeat from "../img/cuttingmeat.jpeg";
+import insidestore from "../img/insidestore.jpeg";
+import slicer from "../img/slicer.jpeg";
 
 function About() {
   return (
@@ -18,7 +24,7 @@ function About() {
             </h5>
             <br />
             <img
-              src={flag}
+              src={apron}
               alt="italianflag"
               className="butcherLogo wow fadeIn delay-1s"
             />
@@ -61,7 +67,7 @@ function About() {
         </div>
         <br />
         <div className="row justify-content-center">
-          <div className="col-lg-4 photos text-center wow flipInX delay-2s">
+          <div className="col-lg-4 photos text-center wow fadeIn delay-2s">
             <img
               src={owner}
               alt="brettandjessie"
@@ -69,12 +75,63 @@ function About() {
               height="450px"
             />
           </div>
-          <div className="col-lg-6 photos text-center wow flipInX delay-2s">
+          <div className="col-lg-4 photos text-center wow fadeIn delay-2s">
             <img
               src={pop}
               alt="popandgary"
-              width="600px"
+              width="350px"
               height="450px"
+              id="popgary"
+            />
+          </div>
+        </div>
+        <br />
+        <div className="row justify-content-center">
+          <div className="col-lg-5 photos text-center wow fadeIn delay-2s">
+            <img
+              src={slicer}
+              alt="popandgary"
+              width="400px"
+              height="350px"
+              id="poppic"
+            />
+          </div>
+          <div className="col-lg-5 photos text-center wow fadeIn delay-2s">
+            <img
+              src={storefront}
+              alt="storefront"
+              width="400px"
+              height="350px"
+              id="poppic"
+            />
+          </div>
+          <div className="col-lg-2 photos text-center wow fadeIn delay-2s">
+            <img
+              src={groundmeat}
+              alt="popandgary"
+              width="250px"
+              height="350px"
+              id="popgary"
+            />
+          </div>
+        </div>
+        <br />
+        <div className="row justify-content-center">
+          <div className="col-lg-6 photos text-center wow fadeIn delay-2s">
+            <img
+              src={insidestore}
+              alt="storefront"
+              width="500px"
+              height="350px"
+              id="poppic"
+            />
+          </div>
+          <div className="col-lg-6 photos text-center wow fadeIn delay-2s">
+            <img
+              src={cuttingmeat}
+              alt="popandgary"
+              width="500px"
+              height="350px"
               id="poppic"
             />
           </div>
