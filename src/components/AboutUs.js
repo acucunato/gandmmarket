@@ -68,17 +68,12 @@ function About() {
         <br />
         <div className="row justify-content-center">
           <div className="col-lg-4 photos text-center wow fadeIn delay-2s">
-            <img
-              src={owner}
-              alt="brettandjessie"
-              width="300px"
-              height="450px"
-            />
+            <img src={pop} alt="popandgary" width="300px" height="450px" />
           </div>
           <div className="col-lg-4 photos text-center wow fadeIn delay-2s">
             <img
-              src={pop}
-              alt="popandgary"
+              src={owner}
+              alt="brettandjesse"
               width="350px"
               height="450px"
               id="popgary"
@@ -90,7 +85,7 @@ function About() {
           <div className="col-lg-5 photos text-center wow fadeIn delay-2s">
             <img
               src={slicer}
-              alt="popandgary"
+              alt="slicer"
               width="400px"
               height="350px"
               id="poppic"
@@ -108,7 +103,7 @@ function About() {
           <div className="col-lg-2 photos text-center wow fadeIn delay-2s">
             <img
               src={groundmeat}
-              alt="popandgary"
+              alt="groundmeat"
               width="250px"
               height="350px"
               id="popgary"
@@ -120,7 +115,7 @@ function About() {
           <div className="col-lg-6 photos text-center wow fadeIn delay-2s">
             <img
               src={insidestore}
-              alt="storefront"
+              alt="insidestore"
               width="500px"
               height="350px"
               id="poppic"
@@ -129,7 +124,7 @@ function About() {
           <div className="col-lg-6 photos text-center wow fadeIn delay-2s">
             <img
               src={cuttingmeat}
-              alt="popandgary"
+              alt="cuttingmeat"
               width="500px"
               height="350px"
               id="poppic"
