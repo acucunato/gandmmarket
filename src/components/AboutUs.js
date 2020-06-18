@@ -68,13 +68,13 @@ function About() {
         <br />
         <div className="row justify-content-center">
           <div className="col-lg-4 photos text-center wow fadeIn delay-2s">
-            <img src={pop} alt="popandgary" width="300px" height="450px" />
+            <img src={pop} alt="popandgary" width="350px" height="450px" />
           </div>
           <div className="col-lg-4 photos text-center wow fadeIn delay-2s">
             <img
               src={owner}
               alt="brettandjesse"
-              width="350px"
+              width="300px"
               height="450px"
               id="popgary"
             />
