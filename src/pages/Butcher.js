@@ -73,7 +73,7 @@ function Butcher() {
           </div>
         </div>
       </div>
-      <div className="meatsTable wow fadeIn delay-2s">
+      <div className="meatsTable wow fadeIn delay-1s">
         <table className="table-responsive">
           <table className="table table-hover">
             <tr>

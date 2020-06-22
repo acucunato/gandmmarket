@@ -60,17 +60,17 @@ function About() {
                 Italian delicacies into your home.
               </p>
             </p>
-            <h5 className="text-center mt-0 wow jackInTheBox delay-2s">
+            <h5 className="text-center mt-0 wow jackInTheBox delay-1s">
               "Good Meat isn't Cheap, Cheap Meat isn't Good!"
             </h5>
           </div>
         </div>
         <br />
         <div className="row justify-content-center">
-          <div className="col-lg-4 photos text-center wow fadeIn delay-2s">
+          <div className="col-lg-4 photos text-center wow fadeIn delay-1s">
             <img src={pop} alt="popandgary" width="350px" height="450px" />
           </div>
-          <div className="col-lg-4 photos text-center wow fadeIn delay-2s">
+          <div className="col-lg-4 photos text-center wow fadeIn delay-1s">
             <img
               src={owner}
               alt="brettandjesse"
@@ -82,7 +82,7 @@ function About() {
         </div>
         <br />
         <div className="row justify-content-center">
-          <div className="col-lg-5 photos text-center wow fadeIn delay-2s">
+          <div className="col-lg-5 photos text-center wow fadeIn delay-1s">
             <img
               src={slicer}
               alt="slicer"
@@ -91,7 +91,7 @@ function About() {
               id="poppic"
             />
           </div>
-          <div className="col-lg-5 photos text-center wow fadeIn delay-2s">
+          <div className="col-lg-5 photos text-center wow fadeIn delay-1s">
             <img
               src={storefront}
               alt="storefront"
@@ -100,7 +100,7 @@ function About() {
               id="poppic"
             />
           </div>
-          <div className="col-lg-2 photos text-center wow fadeIn delay-2s">
+          <div className="col-lg-2 photos text-center wow fadeIn delay-1s">
             <img
               src={groundmeat}
               alt="groundmeat"
@@ -112,7 +112,7 @@ function About() {
         </div>
         <br />
         <div className="row justify-content-center">
-          <div className="col-lg-6 photos text-center wow fadeIn delay-2s">
+          <div className="col-lg-6 photos text-center wow fadeIn delay-1s">
             <img
               src={insidestore}
               alt="insidestore"
@@ -121,7 +121,7 @@ function About() {
               id="poppic"
             />
           </div>
-          <div className="col-lg-6 photos text-center wow fadeIn delay-2s">
+          <div className="col-lg-6 photos text-center wow fadeIn delay-1s">
             <img
               src={cuttingmeat}
               alt="cuttingmeat"

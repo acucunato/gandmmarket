@@ -43,7 +43,7 @@ function Deli() {
         </div>
       </div>
       <br />
-      <div className="deliTable wow fadeIn delay-2s">
+      <div className="deliTable wow fadeIn delay-1s">
         <table className="table-responsive">
           <table className="table table-hover">
             <tr>
