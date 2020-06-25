@@ -13,7 +13,7 @@ a:hover {
 }
 
 ::selection {
-  color: #dfe4e0;
+  color: #e8e6e1;
   background: #c62828;
 }
 
@@ -125,7 +125,7 @@ header.masthead {
 
 .page-section-about {
   padding: 8rem 0;
-  background-color: #d3cec4;
+  background-color: #e8e6e1;
 }
 
 .butcherLogo {
@@ -154,7 +154,7 @@ header.masthead {
 /* Contact Us */
 .page-section-contact {
   padding: 8rem 0;
-  background-color: #d3cec4;
+  background-color: #e8e6e1;
 }
 
 li {

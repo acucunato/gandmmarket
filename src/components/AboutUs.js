@@ -2,7 +2,7 @@ import React from "react";
 import apron from "../img/1957.jpeg";
 import owner from "../img/brett&jesse.jpeg";
 import pop from "../img/pop&gar.jpeg";
-import storefront from "../img/storefront.jpeg";
+import storefront from "../img/store.jpg";
 // import sign from "../img/sign.jpeg";
 import groundmeat from "../img/groundmeat.jpeg";
 import cuttingmeat from "../img/cuttingmeat.jpeg";
@@ -95,7 +95,7 @@ function About() {
             <img
               src={storefront}
               alt="storefront"
-              width="400px"
+              width="450px"
               height="350px"
               id="poppic"
             />
