@@ -27,7 +27,7 @@ function Menu() {
           </div>
           <div className="col-md-4 text-center wow flipInX delay-2s">
             <ul>
-              <h4 className="hours">Our Summer Hours</h4>
+              <h4 className="hours">Our Hours</h4>
               <li>Monday 9am-4pm</li>
               <li>Tuesday 9am-4pm</li>
               <li>Wednesday 9am-4pm</li>
