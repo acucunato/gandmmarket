@@ -35,6 +35,15 @@ function Menu() {
           <div className="col-md-4"></div>
         </div>
         <br />
+        <div className="text-center mt-0">
+          <Link to="/gandmmoderndeli">
+            <button type="button" class="btn btn-lg">
+              Washington TWP MENU
+            </button>
+          </Link>
+        </div>
+        <br />
+        <br />
         <div className="text-center mt-0 catering wow fadeIn delay-1s">
           Catering Available Upon Request •{" "}
           <a href="tel:+1-856-939-1070">(856) 939-1070</a>

@@ -6,6 +6,7 @@ import Deli from "./pages/Deli";
 import Butcher from "./pages/Butcher";
 import ItalianSpecialities from "./pages/ItalianSpecialities";
 import ScrollToTop from "./ScrollToTop";
+import WTHomePage from "./pages/WTHomePage";
 
 function App() {
   return (
@@ -24,6 +25,9 @@ function App() {
           </Route>
           <Route exact path={["/italian-specialities"]}>
             <ItalianSpecialities />
+          </Route>
+          <Route exact path={["/gandmmoderndeli"]}>
+            <WTHomePage />
           </Route>
         </Switch>
       </div>

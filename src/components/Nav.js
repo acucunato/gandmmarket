@@ -74,22 +74,15 @@ function Nav() {
                   aria-haspopup="true"
                   aria-expanded="false"
                 >
-                  Menu
+                  Locations
                 </a>
                 <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <Link to="/deli">
-                    <a className="dropdown-item" href="#deli">
-                      Deli
-                    </a>
-                  </Link>
-                  <Link to="/butcher">
-                    <a className="dropdown-item" href="#meats">
-                      Meats
-                    </a>
-                  </Link>
-                  <Link to="/italian-specialities">
-                    <a className="dropdown-item" href="#italianspecialities">
-                      Italian Specialities
+                  <a className="dropdown-item" href="#history">
+                    Glendora
+                  </a>
+                  <Link to="/gandmmoderndeli">
+                    <a className="dropdown-item" href="#gandmmoderndeli">
+                      Washington Township
                     </a>
                   </Link>
                 </div>
