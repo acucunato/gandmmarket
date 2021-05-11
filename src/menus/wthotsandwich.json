@@ -1,0 +1,46 @@
+[
+  {
+    "item": "Meatball Sandwich",
+    "description": "Our homemade meatballs and gravy topped with provolone and grated pecorino romano cheese."
+  },
+  {
+    "item": "Sausage and Pepper Sandwich",
+    "description": "Our homemade sweet and hot sausage with peppers made to perfection, your choice of cheese."
+  },
+  {
+    "item": "Knuckle Sandwich",
+    "description": "Chicken cutlet with broccoli rabe and provolone cheese."
+  },
+  {
+    "item": "Rocky Balboa",
+    "description": "Chicken cutlet with virgina baked ham and swiss cheese."
+  },
+  {
+    "item": "Fungule",
+    "description": "Chicken cutlet and prosciutto topped with arugula, mozzerella and balsamic glaze."
+  },
+  {
+    "item": "Chicken Parm Sandwich",
+    "description": "Chicken cutlet topped with our homemade gravy and mozzerella."
+  },
+  {
+    "item": "Ranch Daddy",
+    "description": "Chicken cutlet topped with bacon, ranch and american cheese."
+  },
+  {
+    "item": "BBQ Bros",
+    "description": "Chicken cutlet topped with BBQ sauce and american cheese."
+  },
+  {
+    "item": "Roast Beef Sandwich",
+    "description": "Our homemade roast beef with your choice of cheese."
+  },
+  {
+    "item": "Roast Pork Sandwich",
+    "description": "Our homemade roast pork with your choice of cheese."
+  },
+  {
+    "item": "Fat Darren Challenge",
+    "description": "Our largest sandwich yet; homemade meatballs, and  chicken cutlet topped with mozzerella and homemade gravy."
+  }
+]

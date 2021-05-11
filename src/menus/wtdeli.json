@@ -1,0 +1,102 @@
+[
+  {
+    "item": "American Cheese",
+    "price": "$6.00",
+    "meat": "Fresh Ground Beef",
+    "price2": "$6.00"
+  },
+  {
+    "item": "Provolone Cheese",
+    "price": "$6.00",
+    "meat": "Fresh Ground Mix (Beef, Pork, Veal)",
+    "price2": "$6.00"
+  },
+  {
+    "item": "Sharp Provolone",
+    "price": "$8.00",
+    "meat": "Beef Cubes",
+    "price2": "$7.00"
+  },
+  {
+    "item": "Swiss Cheese",
+    "price": "$7.00",
+    "meat": "Beef Roast",
+    "price2": "$7.00"
+  },
+  {
+    "item": "Virgina Baked Ham",
+    "price": "$6.00",
+    "meat": "Pork Chops",
+    "price2": "$5.00"
+  },
+  {
+    "item": "Capacola",
+    "price": "$8.00",
+    "meat": "Pork Cutlets",
+    "price2": "$5.00"
+  },
+  {
+    "item": "Genoa Salami",
+    "price": "$9.00",
+    "meat": "Pork Roast",
+    "price2": "$5.00"
+  },
+  {
+    "item": "Low Salt Turkey",
+    "price": "$10.00",
+    "meat": "Chicken Breast",
+    "price2": "$4.50"
+  },
+  {
+    "item": "Homemade Roast Beef",
+    "price": "$9.00",
+    "meat": "Chicken Cutlet",
+    "price2": "$5.00"
+  },
+  {
+    "item": "Homemade Roast Pork",
+    "price": "$8.00",
+    "meat": "Ribeye",
+    "price2": "$16.00"
+  },
+  {
+    "item": "Prosciutto",
+    "price": "$15.00",
+    "meat": "NY Strip Steak",
+    "price2": "$14.00"
+  },
+  {
+    "item": "Pepperoni",
+    "price": "$8.00",
+    "meat": "Homemade Sweet Sausage",
+    "price2": "$5.00"
+  },
+  {
+    "item": "Potatoe Salad",
+    "price": "$4.00",
+    "meat": "Homemade Hot Sausage",
+    "price2": "$5.00"
+  },
+  {
+    "item": "Macaroni Salad",
+    "price": "$4.00",
+    "meat": "Homemade Broccoli Rabe Sausage",
+    "price2": "$6.00"
+  },
+  {
+    "item": "Cole Slaw",
+    "price": "$4.00"
+  },
+  {
+    "item": "Roasted Peppers",
+    "price": "$7.00"
+  },
+  {
+    "item": "Pepper Shooters",
+    "price": "$9.00"
+  },
+  {
+    "item": "Mozzerella Balls",
+    "price": "$9.00"
+  }
+]

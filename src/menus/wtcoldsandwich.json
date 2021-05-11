@@ -1,0 +1,50 @@
+[
+  {
+    "item": "Tuna Hoagie",
+    "description": "Tuna mixed with mayo, lettuce, tomato, onion, american cheese, seasoned with salt pepper and oregano."
+  },
+  {
+    "item": "Italian Hoagie",
+    "description": "Our signature italian hoagie; capacola, salami and provolone cheese with lettuce, tomato, onion, seasoned with salt, pepper, and oregano."
+  },
+  {
+    "item": "American Hoagie",
+    "description": "Our signature american hoagie; american cheese, ham, and salami, with lettuce, tomato, onion, seasoned with salt, pepper, and oregano."
+  },
+  {
+    "item": "Turkey and Cheese Hoagie",
+    "description": "Low salt turkey, your choice of cheese, with lettuce, tomato, onion, seasoned with salt, pepper, and oregano."
+  },
+  {
+    "item": "Ham and Cheese Hoagie",
+    "description": "Virgina baked ham, your choice of cheese, with lettuce, tomato, onion, seasoned with salt, pepper, and oregano."
+  },
+  {
+    "item": "Roast Beef Hoagie",
+    "description": "Our homemade roast beef with provolone cheese."
+  },
+  {
+    "item": "Roast Pork Hoagie",
+    "description": "Our homemade roast pork with provolone cheese."
+  },
+  {
+    "item": "Grass Graiser",
+    "description": "Our vegetarian hoagie with lettuce, tomato, onion and roasted red peppers."
+  },
+  {
+    "item": "Italian Stallion",
+    "description": "Salami, fresh mozzerella, and pepper shooters."
+  },
+  {
+    "item": "Supreme",
+    "description": "Prosciutto, sharp provolone, and roasted peppers."
+  },
+  {
+    "item": "Cheese Hoagie",
+    "description": "For our cheese lovers; provolone, swiss and cooper cheese."
+  },
+  {
+    "item": "Create Your Own Hoagie",
+    "description": "Your choice of lunchmeat, cheese and toppings."
+  }
+]

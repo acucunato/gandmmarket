@@ -1,0 +1,58 @@
+[
+  {
+    "meat": "Fresh Ground Beef",
+    "price2": "$6.00"
+  },
+  {
+    "meat": "Fresh Ground Mix (Beef, Pork, Veal)",
+    "price2": "$6.00"
+  },
+  {
+    "meat": "Beef Cubes",
+    "price2": "$7.00"
+  },
+  {
+    "meat": "Beef Roast",
+    "price2": "$7.00"
+  },
+  {
+    "meat": "Pork Chops",
+    "price2": "$5.00"
+  },
+  {
+    "meat": "Pork Cutlets",
+    "price2": "$5.00"
+  },
+  {
+    "meat": "Pork Roast",
+    "price2": "$5.00"
+  },
+  {
+    "meat": "Chicken Breast",
+    "price2": "$4.50"
+  },
+  {
+    "meat": "Chicken Cutlet",
+    "price2": "$5.00"
+  },
+  {
+    "meat": "Ribeye",
+    "price2": "$16.00"
+  },
+  {
+    "meat": "NY Strip Steak",
+    "price2": "$14.00"
+  },
+  {
+    "meat": "Homemade Sweet Sausage",
+    "price2": "$5.00"
+  },
+  {
+    "meat": "Homemade Hot Sausage",
+    "price2": "$5.00"
+  },
+  {
+    "meat": "Homemade Broccoli Rabe Sausage",
+    "price2": "$6.00"
+  }
+]
