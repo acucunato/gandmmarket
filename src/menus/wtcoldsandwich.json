@@ -1,9 +1,5 @@
 [
   {
-    "item": "Tuna Hoagie",
-    "description": "Tuna mixed with mayo, lettuce, tomato, onion, american cheese, seasoned with salt pepper and oregano."
-  },
-  {
     "item": "Italian Hoagie",
     "description": "Our signature italian hoagie; capacola, salami and provolone cheese with lettuce, tomato, onion, seasoned with salt, pepper, and oregano."
   },
@@ -28,6 +24,14 @@
     "description": "Our homemade roast pork with provolone cheese."
   },
   {
+    "item": "Tuna Hoagie",
+    "description": "Tuna salad mixed with mayo, chopped tomatoes, onions, celery, and lemon juice topped with lettuce, tomato and onions."
+  },
+  {
+    "item": "Chicken Salad Sandwich",
+    "description": "Roasted Chicken mixed with mayo, scallion, and dijon, topped with lettuce, tomato, and onions."
+  },
+  {
     "item": "Grass Graiser",
     "description": "Our vegetarian hoagie with lettuce, tomato, onion and roasted red peppers."
   },
@@ -38,6 +42,10 @@
   {
     "item": "Supreme",
     "description": "Prosciutto, sharp provolone, and roasted peppers."
+  },
+  {
+    "item": "Calabrese Kicker",
+    "description": "Hot sopressata, hot capocollo, calabrian chili paste, topped with fresh mozzerella, lettuce, tomato, and onions. "
   },
   {
     "item": "Cheese Hoagie",
